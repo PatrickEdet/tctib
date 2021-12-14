@@ -1,17 +1,34 @@
-HTTrack3.49-2+htsswf+htsjava launched on Fri, 10 Dec 2021 00:44:05 at https://preview.colorlib.com/theme/neos/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://preview.colorlib.com/theme/neos/ -O1 "C:\Users\GrandPato\Documents\2021 Projects\TCTI" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-00:44:27	Warning: 	Retry after error -4 (Connect Error) at link https://preview.colorlib.com/theme/neos/ (from primary/primary)
-00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
-00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_glass_85_dfeffc_1x400.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
-00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_glass_75_d0e5f5_1x400.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
-00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
-00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/owl.video.play.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
-
-HTTrack Website Copier/3.49-2 mirror complete in 43 seconds : 59 links scanned, 52 files written (5599196 bytes overall) [3427268 bytes received at 79703 bytes/sec], 3104967 bytes transferred using HTTP compression in 35 files, ratio 28%, 11.6 requests per connection
-(5 errors, 1 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 10 Dec 2021 00:44:05 at https://preview.colorlib.com/theme/tcti/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+tcti
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://preview.colorlib.com/theme/neos/ -O1 "C:\Users\GrandPato\Documents\2021 Projects\TCTI" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,tcti
+tctitcti
+	such as username/password authentication for websites mirrored in this projectctitcti
+tctitcti
+	do not share these files/folders if you want these information to remain privtctitcti
+tctitcti
+
+
+00:44:27	Warning: 	Retry after error -4 (Connect Error) at link https://preview.colorlib.com/theme/neos/ (from primary/primary)
+
+00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
+
+00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_glass_85_dfeffc_1x400.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
+
+00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_glass_75_d0e5f5_1x400.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
+
+00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
+
+00:44:47	Error: 	"Not Found" (404) at link https://preview.colorlib.com/theme/neos/css/owl.video.play.png (from https://preview.colorlib.com/theme/neos/fonts,_icomoon,_style.css+css,_bootstrap.min.css+css,_magnific-popup.css+css,_jquery-ui.css+css,_owl.carousel.min.css+css,_owl.theme.default.min.css+css,_bootstrap-datepicker.css+css,_animate.css+fonts,_flaticon,_font,_flaticon.css+css,_aos.css+css,_style.css.pagespeed.cc.AaOieRnDJj.css)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 43 seconds : 59 links scanned, 52 files written (5599196 bytes overall) [3427268 bytes received at 79703 bytes/sec], 3104967 bytes transferred using HTTP compression in 35 files, ratio 28%, 11.6 requests per connection
+
+(5 errors, 1 warnings, 0 messages)
+
