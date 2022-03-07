@@ -1,0 +1,9 @@
+.address-location {
+  color: #8b8e94;
+}
+.address-location:hover {
+  color: blue;
+}
+.address-location-footer {
+  color: white;
+}
