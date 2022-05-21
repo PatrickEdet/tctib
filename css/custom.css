@@ -1,3 +1,7 @@
+/* ==================
+  Global
+===================== */
+
 .address-location {
   color: #8b8e94;
 }
@@ -6,4 +10,192 @@
 }
 .address-location-footer {
   color: white;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.abbr_titles:hover {
+  color: #6a41ed;
+  font-weight: 600;
+}
+
+/* ==================
+Layout
+===================== */
+
+/* News Section  */
+
+.news-header {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-bottom: 2em;
+}
+
+.news-header .text-content {
+  text-align: center;
+  margin: 0 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .news-header {
+    flex-direction: row;
+  }
+  
+  .news-header .text-content {
+    width: 100%;
+    padding: 1em;
+  }
+  
+}
+
+/* News Content */
+
+.news-content-wrapper {
+  margin: 0 auto;
+  padding: 4em;
+  background-color: #f2f4f5;
+}
+
+.news-content {
+  max-width: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+  .news-content {
+    max-width: 930px;
+    color: #000;
+  }
+  
+}
+
+.img-grid figure {
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    place-items: center;
+  }
+
+}
+
+/* Related News */
+
+.related-news-container {
+  max-width: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 3em;
+}
+
+.related-news {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+
+  .related-news {
+    flex-direction: row;
+  }
+  
+}
+
+.article-top {
+  width: 350px;
+  margin-right: 1.25em;
+}
+
+.article-bottom {
+  width: 270px;
+}
+
+
+/* ==================
+Typography
+===================== */
+
+.text-content h1 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .text-content h1 {
+    font-size: 2.25em;  
+  }
+  
+}
+
+.text-content h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #6a41ed;;
+}
+
+.news-content p {
+  font-size: 20px;
+  line-height: 145%;
+}
+
+.article-bottom h5 {
+  margin: 1em 0;
+}
+
+.article-bottom h5 a {
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+}
+
+.article-bottom h5 a:hover {
+  color: #6a41ed;
+}
+
+/* End */
+
+.editors-pick-text h2::after {
+  content: "";
+  height: 100px; 
+  display: block;
+  border-left: 3px solid #6a41ed;
+}
+
+/* ======================
+  ABOUT PAGE 
+========================= */
+
+.story-card {
+  font-size: 18px;
+  margin-bottom: 1.25em;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+}
+
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 1.25em;
+  height: auto;
+  width: 300px;
 }
