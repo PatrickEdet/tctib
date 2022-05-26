@@ -36,7 +36,7 @@ Typography
 @media screen and (min-width: 768px) {
   
   .text-content h1 {
-    font-size: 2.25rem;  
+    font-size: 1.875em;  
   }
   
 }
@@ -122,9 +122,11 @@ Typography
     margin-right: 2em;
   }
   
-  .news-header .text-content {
-    width: 100%;
-    padding: 1em;
+  .news-header .text-content,
+  .featured-video-wrapper .text-content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 4em;
   }
   
   .featured-video-wrapper .text-content {
@@ -179,6 +181,10 @@ Typography
 
 }
 
+.scale-img:active {
+  transform: scale(1.4);
+}
+
 /* Related News */
 
 .related-news-container {
@@ -217,6 +223,10 @@ Typography
 /* ======================
   ABOUT PAGE 
 ========================= */
+
+.site-half {
+  font-size: 20px;
+}
 
 .story-card {
   font-size: 18px;
