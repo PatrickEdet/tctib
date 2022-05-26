@@ -27,7 +27,7 @@ html {
 }
 body {
   background: #eff0f4;
-  color: #8b8e94;
+  color: #000000;
   line-height: 28px;
   font-size: 15px;
 }
@@ -47,10 +47,11 @@ h1 {
 }
 h2,
 h4 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h3 {
   font-size: 28px;
+  margin-bottom: 30px;
 }
 h5,
 h6 {
@@ -909,7 +910,7 @@ a:hover {
 .section-heading h2 {
   line-height: 40px;
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 600;
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
@@ -1229,7 +1230,7 @@ a:hover {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: -200px;
+  margin-top: -230px;
   position: relative;
 }
 .probootstrap-flex-block .probootstrap-text {
