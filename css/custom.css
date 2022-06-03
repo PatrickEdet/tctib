@@ -85,6 +85,58 @@ Typography
   Layout
 ===================== */
 
+/* ======
+  Index  
+========= */
+
+.probootstrap-cta:last-child {
+  color: #000;
+  padding: 3em 0;
+  color: #fff;
+  background-color: transparent;
+}
+
+
+.probootstrap-cta:last-child h2 {
+  margin: 0px 0px 12px;
+  padding: 0px;
+  color: #6a41ed;
+  float: left;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-cta:last-child .btn {
+    float: none;
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+.probootstrap-cta:last-child .btn.btn-ghost {
+  width: 200px;
+  border: 1px solid #6a41ed;
+  color: #6a41ed;
+}
+
+.probootstrap-cta:last-child .btn.btn-ghost:hover,
+.probootstrap-cta:last-child .btn.btn-ghost:active {
+  background: #6a41ed;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .probootstrap-cta:last-child .btn.btn-ghost {
+    width: 100%;
+  }
+  
+}
+
+/* =====
+End 
+========*/
+
 .custom-featured-news {
   justify-content: center;
   margin-bottom: 2.25em;
