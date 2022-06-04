@@ -89,6 +89,40 @@ Typography
   Index  
 ========= */
 
+.marquee-news-tag {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: .2em;
+}
+
+.marquee-heading {
+  display: inline-block ;
+  font-size: 18px;
+  margin-right: .95em;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 300;
+  transition: all .25s;
+}
+
+.marquee-heading:hover,
+.marquee-heading:active {
+  color: rgb(223, 223, 223);
+}
+
+@media screen and (min-width: 768px) {
+  
+  .marquee-news-tag {
+    font-size: 28px;
+  }
+
+  .marquee-heading {
+    font-size: 26px;
+  }
+
+}
+
 .probootstrap-cta:last-child {
   color: #000;
   padding: 3em 0;
@@ -168,7 +202,7 @@ End
   .featured-video-wrapper {
     flex-direction: row;
   }
-
+  
   .featured-video-wrapper .text-content {
     text-align: left;
     margin-right: 2em;
@@ -180,9 +214,10 @@ End
     margin: 0 auto;
     padding: 4em;
   }
-  
+
   .featured-video-wrapper .text-content {
     text-align: left;
+    width: 50%;
   }
   
   .news-header__img-wrapper {
@@ -307,6 +342,18 @@ End
 
 .avatar-text-wrapper:last-child {
   margin-bottom: 0;
+}
+
+.avatar-text-wrapper .text {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 780px) {
+  
+  .avatar-text-wrapper .text {
+    font-size: 16px;
+  }
+
 }
 
 .classic-bold {
