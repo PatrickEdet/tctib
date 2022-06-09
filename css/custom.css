@@ -26,19 +26,31 @@ img {
 }
 
 /* ==================
+Animations
+===================== */
+
+@keyframes bouncyText {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+  
+}
+
+/* ==================
 Typography
 ===================== */
 
 .text-content h1 {
   font-size: 1.75rem;
-}
-
-@media screen and (min-width: 768px) {
-  
-  .text-content h1 {
-    font-size: 1.875em;  
-  }
-  
 }
 
 .text-content h2 {
@@ -59,7 +71,7 @@ Typography
 }
 
 .article-bottom h5 a {
-  font-size: 20px;
+  font-size: 16px;
   color: #000;
   font-weight: 500;
 }
@@ -77,6 +89,22 @@ Typography
   height: 100px; 
   display: block;
   border-left: 3px solid #6a41ed;
+}
+
+@media screen and (min-width: 900px) {
+  
+  .text-content h1 {
+    font-size: 1.875em;  
+  }
+
+  .news-content p {
+    font-size: 20px;
+  }
+
+  .article-bottom h5 a {
+    font-size: 20px;
+  }
+  
 }
 
 /* End */
@@ -110,7 +138,7 @@ Typography
   color: rgb(223, 223, 223);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   
   .marquee-news-tag {
     font-size: 28px;
@@ -119,18 +147,18 @@ Typography
   .marquee-heading {
     font-size: 26px;
   }
-
+  
 }
 
-.probootstrap-cta:last-child {
+.custom-cta-section {
   color: #000;
   padding: 3em 0;
   color: #fff;
   background-color: transparent;
+  animation: bouncyText 2.5s infinite both;
 }
 
-
-.probootstrap-cta:last-child h2 {
+.custom-cta-section h2 {
   margin: 0px 0px 12px;
   padding: 0px;
   color: #6a41ed;
@@ -140,27 +168,29 @@ Typography
 }
 
 @media screen and (max-width: 768px) {
-  .probootstrap-cta:last-child .btn {
+
+  .custom-cta-section .btn {
     float: none;
     width: 100%;
     margin-top: 0px;
   }
 }
 
-.probootstrap-cta:last-child .btn.btn-ghost {
+.custom-cta-section .btn.btn-ghost {
   width: 200px;
   border: 1px solid #6a41ed;
   color: #6a41ed;
 }
 
-.probootstrap-cta:last-child .btn.btn-ghost:hover,
-.probootstrap-cta:last-child .btn.btn-ghost:active {
+.custom-cta-section .btn.btn-ghost:hover,
+.custom-cta-section .btn.btn-ghost:active {
   background: #6a41ed;
   color: #fff;
 }
 
 @media screen and (max-width: 480px) {
-  .probootstrap-cta:last-child .btn.btn-ghost {
+
+  .custom-cta-section .btn.btn-ghost {
     width: 100%;
   }
   
@@ -195,7 +225,7 @@ End
   padding: 0 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   
   .news-header,
   .featured-video-wrapper {
@@ -233,20 +263,23 @@ End
 
 .news-content-wrapper {
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em 1.25em;
   background-color: #f2f4f5;
 }
 
 .news-content {
   max-width: 100%;
-  width: 90%;
   margin: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
+
+  .news-content-wrapper {
+    padding: 4em 0;
+  }
 
   .news-content {
-    max-width: 930px;
+    max-width: 900px;
     color: #000;
   }
   
@@ -256,7 +289,7 @@ End
   margin-bottom: 1.25rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
 
   .img-grid {
     display: grid;
@@ -275,9 +308,8 @@ End
 
 .related-news-container {
   max-width: 100%;
-  width: 90%;
   margin: auto;
-  padding: 3em;
+  padding: 1em;
 }
 
 .related-news {
@@ -285,10 +317,14 @@ End
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
 
   .related-news {
     flex-direction: row;
+  }
+
+  .related-news-container {
+    padding: 3em;
   }
   
 }
@@ -368,4 +404,91 @@ End
   border-radius: 20px;
   height: auto;
   width: 200px;
+}
+
+/* Admission page  */
+
+.heading-primary {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 20px;
+}
+
+.heading-tertiary {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.paragraph-text {
+  font-size: 16px;
+  margin-bottom: 1.25em;
+}
+
+strong {
+  font-size: 20.5px;
+}
+
+
+.features-list,
+.venue-detail {
+  font-size: 16px;
+}
+
+.contact-number {
+  display: block;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 900px) {
+
+  .heading-secondary {
+    font-size: 28px;
+  }
+
+  .heading-tertiary {
+    font-size: 22px;
+  }
+
+  .paragraph-text {
+    font-size: 20px;
+  }
+
+  .contact-number {
+    font-size: 20px;
+  }
+  
+}
+
+/* Map */
+
+.map {
+  width: 90%;
+  height: 0;
+  margin: 0 auto;
+  padding-top: 33.33%;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; 
+  right: 0;
+  left: 0; 
+  bottom: 0;
+}
+
+/* Utilities */
+
+.u-text-white {
+  color: white;
+}
+
+.u-px-1 {
+  padding: 10px;
 }
