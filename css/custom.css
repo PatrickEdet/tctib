@@ -1,6 +1,17 @@
 /* ==================
   Global
 ===================== */
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: inherit;
+}
+
+p {
+  text-align: justify;
+}
 
 .address-location {
   color: #8b8e94;
@@ -23,6 +34,10 @@ img {
 .abbr_titles:hover {
   color: #6a41ed;
   font-weight: 600;
+}
+
+.admin-form-details li {
+  font-size: 18px;
 }
 
 /* ==================
@@ -161,7 +176,8 @@ Typography
   padding: 3em 0;
   color: #fff;
   background-color: transparent;
-  animation: bouncyText 2s infinite both;
+  animation: bouncyText 2.5s infinite both;
+  backface-visibility: hidden;
 }
 
 .custom-cta-section h2 {
@@ -388,12 +404,14 @@ End
 }
 
 .img-visionaries-text p {
+  text-align: center;
   font-size: 1.75rem;
 }
 
 
 .avatar-text-wrapper {
   display: flex;
+  flex-direction: column;
   place-items: center;
   margin-bottom: 1.5rem;
 }
@@ -403,13 +421,28 @@ End
 }
 
 .avatar-text-wrapper .text {
+  margin-top: 1rem;
+  text-align: center;
   font-size: 12px;
 }
 
-@media screen and (min-width: 780px) {
+.avatar-text-wrapper strong {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .avatar-text-wrapper {
+    flex-direction: row;
+  }
   
   .avatar-text-wrapper .text {
+    text-align: left;
     font-size: 16px;
+  }
+
+  .avatar-text-wrapper strong {
+    font-size: 15px;
   }
 
 }
@@ -426,10 +459,29 @@ End
 .avatar {
   border-radius: 20px;
   height: auto;
-  width: 200px;
+  width: 150px;
+}
+
+@media screen and (min-width:768px) {
+  .avatar {
+    width: 200px;
+  }
 }
 
 /* Admission page  */
+
+.section-form-sale .heading-tertiary a {
+  display: inline-block;
+  color: #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.section-form-sale .heading-tertiary a:hover,
+.section-form-sale .heading-tertiary a:active {
+  transform: scale(1.03);
+}
 
 .heading-primary {
   font-size: 38px;
@@ -441,7 +493,7 @@ End
 }
 
 .heading-tertiary {
-  font-size: 18px;
+  font-size: 17.5px;
   font-weight: 700;
   margin-bottom: .5em;
 }
@@ -451,7 +503,7 @@ End
   margin-bottom: 1.25em;
 }
 
-strong {
+.avatar-text-wrapper strong {
   font-size: 20.5px;
 }
 
