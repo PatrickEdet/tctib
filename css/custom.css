@@ -128,11 +128,25 @@ Typography
   
 }
 
-/* End */
+    .E-LIBRARY:link{
+      background-color: #6a41ed;
+      margin-bottom: 50px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      text-decoration: none;
+      }
 
-/* ==================
-  Layout
-===================== */
+.E_Library:link {
+
+  margin-left: 50px;
+   color: #fff;
+
+}
+
+.E_Library:hover{
+color: #3bc0c7;
+}
+
 
 /* ======
   Index  
