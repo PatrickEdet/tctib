@@ -903,8 +903,9 @@ a:hover {
     padding: 3em 0;
   }
   .section-heading h1 {
-    font-size: 24px;
+    font-size: 44px;
     line-height: 24px;
+    font-weight: bold;
   }
 }
 .section-heading h2 {

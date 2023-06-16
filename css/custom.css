@@ -14,6 +14,9 @@ p {
 }
 .welcome{
 text-align: center;
+font-family: sans-serif;
+font-weight: bold;
+
 }
 
 .address-location {
