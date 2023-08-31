@@ -39,11 +39,11 @@ h5,
 h6 {
   color: #181920;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0 0 30px;
 }
 h1 {
-  font-size: 46px;
+  font-size: 90px;
 }
 h2,
 h4 {
@@ -1585,9 +1585,7 @@ a:hover {
 .probootstrap-gallery figure:nth-of-type(3n + 3) {
   margin-right: 0;
 }
-.probootstrap-gallery figure figcaption {
-  display: none;
-}
+
 .probootstrap-gallery img {
   width: 100%;
   height: auto;
